@@ -7,7 +7,7 @@
  *
  * Leave empty to keep analytics disabled.
  */
-export const GA_MEASUREMENT_ID = ''
+export const GA_MEASUREMENT_ID = 'G-HTL7S4QPFC'
 export const GOOGLE_SITE_VERIFICATION = ''
 
 const GA_SCRIPT_URL = 'https://www.googletagmanager.com/gtag/js'
