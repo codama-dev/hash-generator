@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# Run Biome on staged files via lint-staged (this will format and fix issues)
+pnpm exec lint-staged || {
+  echo "\n✖ Pre-commit blocked: lint-staged tasks failed."
+  echo "  Biome formatting/linting issues detected."
+  echo "  Please stage the auto-fixed files and commit again."
+  exit 1
+}
+
+# Run tests before allowing the commit
+pnpm test || {
+  echo "\n✖ Pre-commit blocked: tests failed."
+  echo "  Fix tests locally and commit again."
+  exit 1
+}
+
+# Ensure project builds before allowing the commit
+pnpm build || {
+  echo "\n✖ Pre-commit blocked: build failed."
+  echo "  Fix type errors/build issues and commit again."
+  exit 1
+}
+
+exit 0

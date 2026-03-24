@@ -1,0 +1,32 @@
+#!/bin/sh
+
+pnpm run format:check || {
+  echo "
+✖ Pre-push blocked: repository is not formatted per Biome rules."
+  echo "  Run 'pnpm format' to apply fixes, commit them, then push again."
+  exit 1
+}
+
+# Run spell check before push
+pnpm run spell:check || {
+  echo "\n✖ Pre-push blocked: spelling errors detected."
+  echo "  Run 'pnpm spell' to see errors and suggestions."
+  echo "  Fix spelling errors or add words to cspell.json, commit changes, then push again."
+  exit 1
+}
+
+pnpm test || {
+  echo "
+✖ Pre-push blocked: tests failed."
+  echo "  Fix tests locally and push again."
+  exit 1
+}
+
+# Ensure project builds before allowing the push
+pnpm build || {
+  echo "\n✖ Pre-push blocked: build failed."
+  echo "  Fix type errors/build issues and push again."
+  exit 1
+}
+
+exit 0

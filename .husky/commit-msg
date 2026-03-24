@@ -1,0 +1,40 @@
+#!/usr/bin/env sh
+
+# Current branch
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+
+# Skip validation for dependabot branches
+if echo "$current_branch" | grep -q "^dependabot/"; then
+	exit 0
+fi
+
+commit_message=$(head -1 "$1")
+
+# Allow merge/revert commits
+if echo "$commit_message" | grep -qE '^(Merge|Revert) '; then
+	exit 0
+fi
+
+# Conventional types
+TYPES='feat|fix|chore|docs|style|refactor|perf|test|build|ci|revert|infra|release|migration'
+
+# Pattern: type(JIRA-123): message  OR  type: JIRA-123 message
+REGEX="^(${TYPES})(\([A-Z]+-[0-9]+\))?: .+|^(${TYPES}): [A-Z]+-[0-9]+ .+"
+
+if ! echo "$commit_message" | grep -qE "$REGEX"; then
+	echo "./husky/commit-msg: Aborting commit. Message must include a type and Jira ticket." >&2
+	echo "Valid examples:" >&2
+	echo "  - feat(GXM-123): add authentication logic" >&2
+	echo "  - fix(DEV-456): correct login state" >&2
+	echo "  - chore(OPS-789): update dependencies" >&2
+	echo "Alternative form:" >&2
+	echo "  - feat: GXM-123 add authentication logic" >&2
+	echo "Allowed types: feat, fix, chore, docs, style, refactor, perf, test, build, ci, revert, infra, release, migration" >&2
+	exit 1
+fi
+
+# Max length 100 chars
+if ! echo "$commit_message" | grep -qE '^.{1,100}$'; then
+	echo "./husky/commit-msg: Aborting commit. Your commit message is too long (maximum 100 characters)." >&2
+	exit 1
+fi

@@ -1,0 +1,131 @@
+{
+  "app": {
+    "title": "Hash-Generator",
+    "tagline": "MD5-, SHA-1-, SHA-256- und SHA-512-Hashes sofort generieren"
+  },
+  "pageHeader": {
+    "title": "Kostenloser Hash-Generator",
+    "subtitle": "Generieren Sie MD5-, SHA-1-, SHA-256- und SHA-512-Hashes aus Text oder Dateien. Vergleichen Sie Hashes zur Verifizierung."
+  },
+  "tool": {
+    "textInput": "Texteingabe",
+    "fileInput": "Dateieingabe",
+    "textTab": "Text",
+    "fileTab": "Datei",
+    "dropFile": "Datei hier ablegen oder klicken zum Durchsuchen",
+    "md5": "MD5",
+    "sha1": "SHA-1",
+    "sha256": "SHA-256",
+    "sha512": "SHA-512",
+    "copy": "Kopieren",
+    "copied": "Kopiert!",
+    "copiedToClipboard": "Hash in die Zwischenablage kopiert",
+    "copyFailed": "Hash konnte nicht kopiert werden",
+    "uppercase": "Grossbuchstaben",
+    "compare": "Vergleichen",
+    "compareHashes": "Hashes vergleichen",
+    "hash1": "Hash 1",
+    "hash2": "Hash 2",
+    "match": "Stimmt ueberein",
+    "noMatch": "Stimmt nicht ueberein",
+    "placeholder": "Text zum Hashen eingeben...",
+    "hashing": "Hashing..."
+  },
+  "theme": {
+    "toggle": "Design wechseln",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "share": {
+    "title": "Gefaellt es dir? Teile es!",
+    "description": "Hilf anderen, dieses kostenlose Tool zu entdecken",
+    "message": "Schau dir diesen kostenlosen Hash-Generator von Codama an - MD5, SHA-1, SHA-256, SHA-512 Hashes sofort generieren!",
+    "button": "Teilen",
+    "whatsapp": "WhatsApp",
+    "facebook": "Facebook",
+    "x": "X (Twitter)",
+    "linkedin": "LinkedIn",
+    "email": "E-Mail",
+    "copyLink": "Link kopieren",
+    "copied": "Kopiert!",
+    "linkCopied": "Link in die Zwischenablage kopiert",
+    "copyFailed": "Link konnte nicht kopiert werden",
+    "hideAfterDownload": "Nicht mehr anzeigen",
+    "scanOrShare": "Teile es mit den Buttons unten",
+    "shareVia": "Waehle deine bevorzugte Art zu teilen",
+    "freeForever": "100% kostenlos, fuer immer. Fuer die Community gemacht.",
+    "cardHint": "Hilf anderen, dieses Tool zu entdecken"
+  },
+  "footer": {
+    "createdWith": "Erstellt mit",
+    "freeBy": "100% kostenlos fuer die Community von",
+    "moreTools": "Weitere kostenlose Tools von Codama"
+  },
+  "language": {
+    "label": "Sprache",
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Espanol",
+    "he": "עברית"
+  },
+  "nav": {
+    "menu": "Menue",
+    "home": "Startseite",
+    "about": "Ueber uns",
+    "getAQuote": "Angebot einholen",
+    "openMenu": "Menue oeffnen",
+    "closeMenu": "Menue schliessen"
+  },
+  "about": {
+    "intro": "Diese Seite wurde vom Codama-Team erstellt. Wir sind eine Software-Agentur, die digitale Produkte entwickelt und Unternehmen beim Wachstum hilft.",
+    "hero": {
+      "title": "Wir bringen Ihre digitale Vision zum Leben. Smart, skalierbar und startbereit.",
+      "subtitle": "Wir arbeiten mit Ihnen zusammen, um massgeschneiderte Loesungen zu entwickeln, die Ihrem Unternehmen helfen zu wachsen."
+    },
+    "getAQuote": "Angebot einholen",
+    "backToTool": "Zurueck zum Hash-Generator",
+    "ourServices": "Unsere Leistungen",
+    "services": {
+      "webApps": {
+        "title": "Webanwendungen",
+        "description": "Wir entwickeln massgeschneiderte Webanwendungen, die schnell, zuverlaessig und benutzerfreundlich sind.",
+        "tag1": "Responsives Design",
+        "tag2": "Moderner Stack",
+        "tag3": "Hohe Leistung"
+      },
+      "mobile": {
+        "title": "Mobile Anwendungen",
+        "description": "Wir entwerfen und entwickeln mobile Apps, die zu Ihren Geschaeftszielen passen.",
+        "tag1": "Nativ & Plattformuebergreifend",
+        "tag2": "Intuitive UX",
+        "tag3": "Skalierbare Architektur"
+      },
+      "automation": {
+        "title": "Automatisierung & KI-Integration",
+        "description": "Wir helfen Ihnen, Zeit zu sparen und intelligenter zu arbeiten, indem wir KI-Tools und Automatisierung in Ihr Unternehmen integrieren.",
+        "tag1": "Prozessautomatisierung",
+        "tag2": "KI-Tools",
+        "tag3": "Workflow-Effizienz"
+      },
+      "dataBi": {
+        "title": "Daten & BI-Loesungen",
+        "description": "Wir verwandeln Ihre Geschaeftsdaten in klare, umsetzbare Erkenntnisse.",
+        "tag1": "Individuelle Dashboards",
+        "tag2": "Plattform-Integration",
+        "tag3": "Umsetzbare Erkenntnisse"
+      },
+      "businessWebsites": {
+        "title": "Unternehmenswebsites",
+        "description": "Wir erstellen moderne, leicht zu verwaltende WordPress-Websites, die grossartig aussehen und auf jedem Geraet funktionieren.",
+        "tag1": "WordPress-Experten",
+        "tag2": "Geschaeftsbereit",
+        "tag3": "SEO-freundlich"
+      }
+    },
+    "whyChoose": {
+      "title": "Warum Codama waehlen",
+      "quote": "Sie kennen Ihr Unternehmen am besten. Deshalb hoeren wir zuerst zu und tauchen dann in Ihre Branche ein."
+    }
+  }
+}

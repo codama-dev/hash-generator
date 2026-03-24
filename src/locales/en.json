@@ -1,0 +1,131 @@
+{
+  "app": {
+    "title": "Hash Generator",
+    "tagline": "Generate MD5, SHA-1, SHA-256, and SHA-512 hashes instantly"
+  },
+  "pageHeader": {
+    "title": "Free Hash Generator",
+    "subtitle": "Generate MD5, SHA-1, SHA-256, and SHA-512 hashes from text or files. Compare hashes for verification."
+  },
+  "tool": {
+    "textInput": "Text Input",
+    "fileInput": "File Input",
+    "textTab": "Text",
+    "fileTab": "File",
+    "dropFile": "Drop a file here or click to browse",
+    "md5": "MD5",
+    "sha1": "SHA-1",
+    "sha256": "SHA-256",
+    "sha512": "SHA-512",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "copiedToClipboard": "Hash copied to clipboard",
+    "copyFailed": "Failed to copy hash",
+    "uppercase": "Uppercase",
+    "compare": "Compare",
+    "compareHashes": "Compare Hashes",
+    "hash1": "Hash 1",
+    "hash2": "Hash 2",
+    "match": "Match",
+    "noMatch": "No Match",
+    "placeholder": "Enter text to hash...",
+    "hashing": "Hashing..."
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "share": {
+    "title": "Loving it? Share the love!",
+    "description": "Help others discover this free tool",
+    "message": "Check out this free Hash Generator by Codama - generate MD5, SHA-1, SHA-256, SHA-512 hashes instantly!",
+    "button": "Share",
+    "whatsapp": "WhatsApp",
+    "facebook": "Facebook",
+    "x": "X (Twitter)",
+    "linkedin": "LinkedIn",
+    "email": "Email",
+    "copyLink": "Copy link",
+    "copied": "Copied!",
+    "linkCopied": "Link copied to clipboard",
+    "copyFailed": "Failed to copy link",
+    "hideAfterDownload": "Don't show this again",
+    "scanOrShare": "Share using the buttons below",
+    "shareVia": "Pick your favorite way to share",
+    "freeForever": "100% free, forever. Made for the community.",
+    "cardHint": "Help others discover this tool"
+  },
+  "footer": {
+    "createdWith": "Created with",
+    "freeBy": "100% free for the community by",
+    "moreTools": "More Free Tools by Codama"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español",
+    "he": "עברית"
+  },
+  "nav": {
+    "menu": "Menu",
+    "home": "Home",
+    "about": "About",
+    "getAQuote": "Get a Quote",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "about": {
+    "intro": "This page was created by the Codama team. We are a software agency that builds digital products and helps businesses grow. We work with startups and established companies to deliver web and mobile apps, automation, and data solutions. Below you can learn more about what we do and how we work.",
+    "hero": {
+      "title": "We bring your digital vision to life. Smart, scalable, and ready to launch.",
+      "subtitle": "We work with you to build custom solutions that help your business grow. It's more than code; it's a real partnership."
+    },
+    "getAQuote": "Get a Quote",
+    "backToTool": "Back to Hash Generator",
+    "ourServices": "Our Services",
+    "services": {
+      "webApps": {
+        "title": "Web Applications",
+        "description": "We build custom web applications that are fast, reliable, and user-friendly. Our team utilizes modern tools to ensure your app functions optimally on all devices, runs smoothly, and is designed to scale with your business.",
+        "tag1": "Responsive Design",
+        "tag2": "Modern Stack",
+        "tag3": "High Performance"
+      },
+      "mobile": {
+        "title": "Mobile Applications",
+        "description": "We design and develop mobile apps that match your business goals. Whether it's for iOS, Android, or both, we focus on user experience, performance, and long-term flexibility so your product feels right from day one.",
+        "tag1": "Native & Cross-Platform",
+        "tag2": "Intuitive UX",
+        "tag3": "Scalable Architecture"
+      },
+      "automation": {
+        "title": "Automation & AI Integration",
+        "description": "We help you save time and work smarter by adding AI tools and automation to your business. From simple task automation to complete AI workflows, we make your systems faster, easier, and more efficient.",
+        "tag1": "Process Automation",
+        "tag2": "AI Tools",
+        "tag3": "Workflow Efficiency"
+      },
+      "dataBi": {
+        "title": "Data & BI Solutions",
+        "description": "We turn your business data into clear insights you can act on. From building dashboards to setting up database connections, we help you make smart decisions with tools like Power BI, Looker Studio, and Google Sheets.",
+        "tag1": "Custom Dashboards",
+        "tag2": "Platform Integration",
+        "tag3": "Actionable Insights"
+      },
+      "businessWebsites": {
+        "title": "Business Websites",
+        "description": "We create modern, easy-to-manage WordPress websites that look great and work well on any device. Whether it's a landing page or a whole site, we build with SEO and usability in mind so your business makes the right first impression.",
+        "tag1": "WordPress Experts",
+        "tag2": "Business-Ready",
+        "tag3": "SEO Friendly"
+      }
+    },
+    "whyChoose": {
+      "title": "Why choose Codama",
+      "quote": "You know your business best. That's why we start by listening, then we dig into your industry to fully understand your audience and goals."
+    }
+  }
+}

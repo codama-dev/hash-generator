@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://free-hash-generator.codama.dev/sitemap.xml
